@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>@nerik</title>
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,800" rel="stylesheet">
   <link rel="stylesheet" href="index.css" media="screen">
   <script src="//localhost:9093"></script>
 </head>
@@ -21,7 +20,7 @@
 
   <div class="main">
     <section>
-      <h2>Professional</h2>
+      <h2>Professional work</h2>
 
       <article>
         <h3><a href="http://trase.earth">trase.earth</a></h3>
@@ -31,7 +30,7 @@
         <p class="tech">
           D3, Redux, SASS, Leaflet
         </p>
-        <ul class="links">
+        <ul>
           <li><a href="https://medium.com/vizzuality-blog/tracing-the-flow-of-coffee-and-soy-85d0b346c4d0">blogpost</a></li>
           <li><a href="https://github.com/Vizzuality/TRASE-frontend">source code</a></li>
         </ul>
@@ -45,7 +44,7 @@
         <div class="tech">
           CARTO, PostGIS
         </div>
-        <ul class="links">
+        <ul>
           <li><a href="https://github.com/nerik/zika">source code</a></li>
         </ul>
       </article>
@@ -58,7 +57,7 @@
         <div class="tech">
           CARTO, PostGIS, Leaflet, Spotify API
         </div>
-        <ul class="links">
+        <ul>
           <li><a href="https://carto.com/blog/isochrones-sxsw">blogpost</a></li>
           <li><a href="https://github.com/nerik/cartodb-sxsw-concerts">source code</a></li>
         </ul>
@@ -69,7 +68,7 @@
         <div class="tech">
           CARTO, PostGIS, Leaflet
         </div>
-        <ul class="links">
+        <ul>
           <li><a href="http://www.citylab.com/design/2016/01/mapping-new-york-city-noise-complaints-311/426606/">article on CityLab</a></li>
         </ul>
       </article>
@@ -79,21 +78,69 @@
         <div class="tech">
           Backbone, React, SASS, Leaflet, CARTO
         </div>
-        <ul class="links">
+        <ul>
           <li><a href="https://nerik.carto.com/viz/8e8052fc-392c-11e5-ad92-0e853d047bba/public_map">map: wine and beer</a></li>
         </ul>
       </article>
 
     </section>
 
+
+
     <section>
       <h2>Open source/experiments</h2>
 
       <article>
         <h3><a href="https://nerik.github.io/Leaflet.Emoji/#emoji_nyc">Leaflet.Emoji and Emoji maps</a></h3>
-        <ul class="links">
+        <div class="description">Emojis for thematic mapping.</div>
+        <ul>
           <li><a href="https://github.com/nerik/Leaflet.Emoji/">source code</a></li>
           <li><a href="https://nerik.github.io/Leaflet.Emoji-slides/#/">slides for "thematic mapping with Emojis" (GeoDC Meetup)</a></li>
+          <li>blogpost (coming soon)</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3><a href="https://atom.io/packages/carto-api">Carto-api-atom</a></h3>
+        <p class="description">A suite of tools to interact with CARTO APIs (SQL, import, geocode...), from within Atom.</p>
+        <div class="tech">
+          node, Atom
+        </div>
+        <ul>
+          <li><a href="https://github.com/nerik/carto-api-atom">source code</a></li>
+          <li><a href="https://github.com/nerik/carto-geocoding-sql">source code: carto-geocoding-sql</a></li>
+        </ul>
+      </article>
+
+      <article>
+        <h3><a href="https://github.com/nerik/elhierro">El Hierro</a></h3>
+        <p class="description">A travel diary about the jewel of the Atlantic Ocean, the tiny island of El Hierro.</p>
+        <div class="tech">
+          Leaflet, node, Torque, three.js, Tilemill
+        </div>
+        <ul>
+          <li><a href="https://github.com/nerik/elhierro">source code</a></li>
+        </ul>
+      </article>
+
+      <article>
+        <h3><a href="http://nerik.github.io/leaflet-graphicscale/demo/">Leaflet-graphicscale</a></h3>
+        <div class="description">A graphic scale for Leaflet.js that looks sharp.</div>
+        <div class="tech">
+          Leaflet, SASS
+        </div>
+        <ul>
+          <li><a href="https://github.com/nerik/leaflet-graphicscale">source code</a></li>
+        </ul>
+      </article>
+
+      <article>
+        <h3><a href="https://www.npmjs.com/package/generator-cartodb">generator-cartodb</a></h3>
+        <p class="description">
+          A yeoman generator that will quickly set up the perfect dev environment to make maps and visualizations with CARTO APIs and client-side library.
+        </p>
+        <ul>
+          <li><a href="https://carto.com/blog/the-cartodb-yeoman-generator">blogpost</a></li>
         </ul>
       </article>
 
@@ -106,23 +153,58 @@
         </ul>
       </article>
 
-      <article>
-        <h3><a href=""></a></h3>
-      </article>
-
-      <article>
-        <h3><a href=""></a></h3>
-      </article>
-
     </section>
+
+
 
     <section>
       <h2>Talks/workshops</h2>
 
       <article>
-        <h3><a href="">Paper thematic mapping</a></h3>
-        <div class="description">Doing paper or tangible maps, during "Realtime maps and urban dataviz" workshop @opendotab, Milano.</div>
+        <h3><a href="https://twitter.com/miccferr/status/851821420233596928">Paper thematic mapping</a></h3>
+        <div class="description">Doing paper or tangible maps, during "Realtime maps and urban dataviz" workshop <a href="https://twitter.com/opendotlab">@opendotab</a>, Milano.</div>
+        <ul>
+          <li><a href="https://nerik.github.io/workshop-milan/prez/">introductory slides</a></li>
+          <li><a href="https://github.com/nerik/workshop-milan">workshop materials</a></li>
+          <li>blogpost (coming soon)</li>
+        </ul>
       </article>
+
+      <article>
+        <h3>Command-line geography</h3>
+        <p class="description">The keyboard is the new compass. The terminal in the workflow of the modern cartographer.</p>
+        <ul>
+          <li><a href="https://ftp.gwdg.de/pub/misc/openstreetmap/FOSS4G-2016/foss4g-2016-1133-command_line_geography-hd.webm">FOSS4G Bonn, August 2016: recording </a></li>
+          <li><a href="https://nerik.github.io/cli-geography/">slides</a></li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>An epic front-end dev journey into geography ! / L'épopée d'un développeur front au pays des cartes</h3>
+        <p class="description">An intro to cartography and GIS for front-end developers.</p>
+        <ul>
+          <li><a href="https://www.paris-web.fr/2016/conferences/l-epopee-d-un-developpeur-front-au-pays-des-cartes.php">Paris Web, September 2016: recording</a></li>
+          <li><a href="https://www.youtube.com/watch?v=HN1NUKIt9KY">Frontend United, Ghent, May 2016: recording</a></li>
+          <li><a href="https://docs.google.com/presentation/d/1DhDPo-iteTyTBjMbPrtunX7ld6eBZHhZvfLrICkRpYY/edit#slide=id.g1132b3dbc3_0_0">slides</a></li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Datavisualisation avec OpenStreetMap</h3>
+        <div class="description">Working with OSM data and PostGIS with CARTO to create thematic maps.</div>
+        <ul>
+          <li><a href="http://www.dailymotion.com/video/x4cqwpb_sotm-fr2016-erik-escoffier-datavisualisation-avec-openstreetmap_school">State of the Map France, may 2016: recording</a></li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Carto Créative et Bières</h3>
+        <div class="description">A meetup organized in Paris to celebrate maps and hops.</div>
+        <ul>
+          <li><a href="https://carto.com/blog/creative-cartography-and-beers">blogpost</a></li>
+        </ul>
+      </article>
+
     </section>
 
   </div>
