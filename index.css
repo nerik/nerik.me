@@ -1,0 +1,91 @@
+html, body, #map {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Input Mono Narrow', Inconsolata, Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+body {
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+header {
+  background: #FE0557;
+  color: #FFFFFF;
+  padding: 8rem 30% 4rem 4rem;
+}
+
+header strong {
+  background: #00B4FF;
+  color: #FFFFFF;
+}
+
+header a {
+  color: #FFFFFF;
+}
+
+header a:hover {
+  background: #00B4FF;
+  color: #FFFFFF;
+}
+
+
+h1 {
+  font-size: 4rem;
+}
+
+.main {
+  background: #FFFFFF;
+  color: #515151;
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.main a, .main a:visited {
+  background: #eee;
+  color: #FE0557;
+}
+
+.main a:hover {
+  background: #00B4FF;
+  color: #FE0557;
+}
+
+h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #00B4FF;
+}
+
+
+
+section {
+  flex: 1 1 0;
+}
+
+section:not(:first-child) {
+  margin-right: 3rem;
+}
+
+article {
+
+}
+
+footer div:first-child {
+  background: #FE0557;
+}
+
+footer div {
+  height: 30px;
+  width: 100%;
+  background: #00B4FF;
+}
+
+footer div:last-child {
+  background: #515151;
+}
