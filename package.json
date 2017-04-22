@@ -1,0 +1,27 @@
+{
+  "name": "nerik.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint -c .eslintrc.js *.js",
+    "build": "echo build",
+    "livereload": "live-reload --port 9093 .",
+    "open": "opener http://localhost:9094",
+    "serve": "http-server -s -p 9094 .",
+    "dev": "npm run build -s && (sleep 1 && npm run open -s) & npm run livereload -s & npm run serve",
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nerik/nerik.github.io/"
+  },
+  "devDependencies": {
+    "eslint": "^2.0.0",
+    "http-server": "^0.8.5",
+    "live-reload": "^1.1.0",
+    "opener": "^1.4.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
