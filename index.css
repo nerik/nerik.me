@@ -33,7 +33,6 @@ header a:hover {
   color: #FFFFFF;
 }
 
-
 h1 {
   font-size: 4rem;
 }
@@ -68,12 +67,12 @@ section {
   flex: 1 1 0;
 }
 
-section:not(:first-child) {
-  margin-right: 3rem;
+section:not(:last-child) {
+  margin-right: 4rem;
 }
 
 article {
-
+  margin-top: 4rem;
 }
 
 footer div:first-child {
