@@ -3,8 +3,7 @@ html, body, #map {
   width: 100%;
   padding: 0;
   margin: 0;
-    font-family: "Input Mono Nar Reg";
-      /*font-family: 'Input Mono Narrow', Inconsolata, Menlo, Consolas, 'DejaVu Sans Mono', monospace;*/
+  font-family: "Input Mono Nar Reg", Inconsolata, Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
 
 body {
@@ -57,25 +56,28 @@ h1 {
   color: #FE0557;
 }
 
+section {
+  flex: 1 1 0;
+}
+
+section:not(:last-child) {
+  margin-right: 7rem;
+}
+
+article {
+  margin-top: 4rem;
+}
+
+img {
+  width: 100%;
+}
+
 h2 {
   font-size: 1rem;
   text-transform: uppercase;
   color: #00B4FF;
 }
 
-
-
-section {
-  flex: 1 1 0;
-}
-
-section:not(:last-child) {
-  margin-right: 4rem;
-}
-
-article {
-  margin-top: 4rem;
-}
 
 footer div:first-child {
   background: #FE0557;
