@@ -3,7 +3,7 @@ html, body, #map {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Input Mono Nar Reg", Inconsolata, Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-family:  'Input Mono Nar Reg', Inconsolata, Menlo, 'Droid Sans Mono', Consolas, 'DejaVu Sans Mono', monospace;
 }
 
 body {
@@ -41,7 +41,7 @@ h1 {
 .main {
   background: #FFFFFF;
   color: #515151;
-  padding: 5rem 4rem;
+  padding: 0 5rem 4rem;
   display: flex;
   flex-direction: row;
 }
@@ -58,6 +58,7 @@ h1 {
 
 section {
   flex: 1 1 0;
+  margin-top: 5rem;
 }
 
 section:not(:last-child) {
@@ -91,4 +92,15 @@ footer div {
 
 footer div:last-child {
   background: #515151;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
 }
