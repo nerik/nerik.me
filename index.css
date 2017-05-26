@@ -62,7 +62,7 @@ section {
 }
 
 section:not(:last-child) {
-  margin-right: 7rem;
+  margin-right: 10%;
 }
 
 article {
@@ -93,6 +93,12 @@ footer div {
 footer div:last-child {
   background: #515151;
 }
+
+/*@media (max-width: 1024px) {
+  section:not(:last-child) {
+    margin-right: 3rem;
+  }
+}*/
 
 @media (max-width: 768px) {
   header {
