@@ -42,6 +42,7 @@ html, body, #map {
 body {
   background: var(--bg);
   color: var(--fg);
+  padding-bottom: 5rem;
 }
 
 h1, h2 {
